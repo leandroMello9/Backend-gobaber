@@ -1,0 +1,4 @@
+yarn typeorm migration:create -n <nome>
+Criando migrations = yarn typeorm migration:run
+Removendo migrations = yarn typeorm migration:revert
+Lista de migrations que foram criadas = yarn typeorm migration:show
